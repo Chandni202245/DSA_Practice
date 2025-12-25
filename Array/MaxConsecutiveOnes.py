@@ -11,3 +11,6 @@ def maxConsecutiveOnes(nums):
 
 nums=[1,1,0,1,0,1,1,1,1,1,0,1,1]
 print(maxConsecutiveOnes(nums))
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
