@@ -32,3 +32,5 @@ head.next.next = Node(3)
 
 print(LinkedListCycle(head))  # False
 
+# Time Complexity: O(N)
+# Space Complexity: O(1)
