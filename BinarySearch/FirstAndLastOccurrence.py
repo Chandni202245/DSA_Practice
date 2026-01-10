@@ -48,3 +48,7 @@ def FirstAndLastOccurrence(arr, target):
 arr = [1,2,2,2,3,4,5]
 target = 2
 print(FirstAndLastOccurrence(arr, target))
+
+# Time Complexity: O(log n)
+
+# Space Complexity: O(1)
