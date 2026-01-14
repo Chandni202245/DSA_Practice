@@ -2,10 +2,13 @@ def solve(nums, target):
     result = []
 
     def backtracking(index, total, subset):
+        #  Found valid subset
         if total == target:
             result.append(subset.copy())
             return
-        if index >= len(nums):
+
+        #  Invalid path → stop
+        if total > target or index >= len(nums):
             return
 
         # Take the element
@@ -20,6 +23,7 @@ def solve(nums, target):
 
     backtracking(0, 0, [])
     return result
+
 
 nums = [5, 9, 4]
 target = 9
